@@ -327,3 +327,152 @@ form input {
   padding: 0;
   margin-top: 1.5rem;
 }
+
+
+/* Media Query added */
+@media only screen and (max-width: 680px) {
+  header{
+    width: 100vw;
+    height: 85vh;
+    background-color: #4416fe;
+    padding-left: 2rem;
+  }
+
+  .logo {
+    height: 2rem;
+  }
+
+  .nav-item{
+    display: none;
+  }
+
+  .header-image {
+    position: absolute;
+    right: 0;
+    bottom: 6rem;
+    height: 25rem;
+    width: 80%;
+  }
+
+  .nav-container {
+    width: 90vw;
+  }
+
+  .header-text h2{
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+
+  .companies{
+    padding: 6rem 0 0 1rem;
+  }
+
+  .api {
+    padding: 0 1rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .card{
+    padding: 1.5rem 2rem;
+  }
+  
+  .card-head{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .card-body {
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    color: #757575;
+  }
+  
+  .card-active {
+    background-color: #fff;
+    border-radius: 1rem;
+  }
+  
+  .card-head-active{
+    color: #4416fe;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+
+
+
+
+  section.blog-section {
+    margin: 0 1rem;
+  }
+  
+  .blog-heading {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .blog-card {
+    display: flex;
+  
+  }
+  
+  .blog-card-right {
+    padding: 1rem 1rem 0 1rem;
+    background-color: #fff;
+  }
+  
+  .faq-section {
+    padding-left: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ccd5fc;
+    gap: 2rem;
+  }
+  
+  .faq-content h2{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .faq-content h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .faq-content h4{
+    font-size: .8rem;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+
+  .download-section {
+    padding: 3rem 1rem;
+  }
+
+
+  .footer-section {
+    padding: 3rem 1rem;
+  }
+}
